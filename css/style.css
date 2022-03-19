@@ -1,0 +1,25 @@
+:root {
+    --dark-color: purple;
+    --light-color: tan;
+}
+.mariogames {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    border: 6px dotted var(--dark-color);
+    background-color: var(--light-color);
+    justify-content: space-around;
+}
+.mariogames img {
+    width: 250px;
+    height: 342px;
+    object-fit: cover;
+}
+.movieapp {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    border: 6px dashed var(--dark-color);
+    background-color: tan;
+    padding: 30px;
+}
